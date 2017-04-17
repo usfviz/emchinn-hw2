@@ -5,7 +5,7 @@
 library(shiny)
 library(ggplot2)
 library(dplyr)
-library(gridExtra)
+#library(gridExtra)
 library(scales)
 library(plyr)
 library(reshape)
