@@ -2,14 +2,42 @@
 # cat("\014")
 # setwd('~/DataViz')
 
-library(shiny)
-library(ggplot2)
-library(dplyr)
-#library(gridExtra)
-library(scales)
-library(plyr)
-library(reshape)
-library(tidyr)
+
+if(!require("dplyr")){  
+  install.packages("dplyr")  
+} 
+library("dplyr")
+
+if(!require("tidyr")){
+  install.packages("tidyr")
+}
+library("tidyr")
+
+if(!require("ggplot2")){
+  install.packages("ggplot2")
+}
+library("ggplot2")
+
+if(!require("shiny")){
+  install.packages("shiny")
+}
+library("shiny")
+
+if(!require("scales")){
+  install.packages("scales")
+}
+library("scales")
+
+if(!require("plyr")){
+  install.packages("plyr")
+}
+library("plyr")
+
+if(!require("reshape")){
+  install.packages("reshape")
+}
+library("reshape")
+
 
 ##______________________Reading-in/Organizing Data_______________________##
 
